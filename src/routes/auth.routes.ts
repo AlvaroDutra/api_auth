@@ -18,6 +18,7 @@ router.post('/auth/signup', async (req, res) => {
         res.status(201).send(userCreated);
     }catch(e){
         res.status(500).send("Não foi possível criar usuario")
+        throw e;
     }
 });
 
