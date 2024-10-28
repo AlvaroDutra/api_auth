@@ -14,11 +14,13 @@
     "argon2": "^0.41.1",
     "bcrypt": "^5.1.1",
     "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.7.9",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
@@ -26,5 +28,6 @@
     "tsx": "^4.19.1",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.11.0"
-  }
+  },
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }
